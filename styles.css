@@ -163,6 +163,11 @@ footer{background:#E3EEF0;color:var(--muted);padding:64px 0 28px;border-top:1px 
 .foot-grid .brand{color:var(--ink);margin-bottom:12px}.foot-grid p{font-size:.95rem;max-width:34ch}
 .foot-grid h4{font:700 1rem var(--disp);color:var(--ink);margin-bottom:12px}
 .foot-grid a:not(.brand){display:block;text-decoration:none;padding:4px 0}.foot-grid a:not(.brand):hover{color:var(--ink)}
+.social-links{display:flex;gap:12px;margin:0 0 10px}
+.foot-grid a.social-link{display:grid;place-items:center;width:40px;height:40px;padding:8px;border:1px solid var(--line);border-radius:50%;color:var(--ink);transition:background .15s,color .15s}
+.foot-grid .social-link:hover{background:var(--ink);color:var(--surface)}
+.social-link svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.social-link svg .social-dot,.social-link svg .x-mark{fill:currentColor;stroke:none}
 .foot-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:48px;padding-top:22px;border-top:1px solid var(--line);font-size:.85rem}
 
 @media(max-width:900px){
